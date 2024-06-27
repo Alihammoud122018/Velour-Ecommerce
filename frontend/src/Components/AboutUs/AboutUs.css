@@ -1,0 +1,33 @@
+.about-us {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .about-us h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #b08d57;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .learn-more-btn {
+    padding: 10px 20px;
+    background-color: #b08d57;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #a07c4f; 
+  }
+  

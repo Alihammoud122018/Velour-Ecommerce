@@ -1,0 +1,22 @@
+.hero {
+    height: 100vh;
+    background-image: url('../Assets/BackImage1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-text {
+    color: gold;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+  }
+  .elegance-font {
+    font-family: 'Allura';
+    font-size: 1.5em;
+  }
+  
