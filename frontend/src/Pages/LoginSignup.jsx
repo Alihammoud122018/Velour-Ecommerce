@@ -17,7 +17,7 @@ export const LoginSignup = () => {
   const login = async() => { 
     console.log("Logged IN",formData);
     let responseData;
-    await fetch('http://localhost:4000/login',{
+    await fetch('https://velour-backend.onrender.com/login',{
       method:'POST',
       headers:{
         Accept:'application/form-data',
@@ -38,7 +38,7 @@ export const LoginSignup = () => {
   const signup = async() => { 
     console.log("Signed Up",formData);
     let responseData;
-    await fetch('http://localhost:4000/signup',{
+    await fetch('https://velour-backend.onrender.com/signup',{
       method:'POST',
       headers:{
         Accept:'application/form-data',
